@@ -9,7 +9,7 @@ export default async function Home() {
   // await fetch("/URL", { cache: "force-cache" });
   return (
     <>
-      <div>안녕</div>
+      <div>안녕하세요</div>
       <Link href={"/list"}>리스트로 이동하기</Link>
       <Link href={"/write"}>글쓰기</Link>
     </>
